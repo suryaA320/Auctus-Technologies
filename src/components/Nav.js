@@ -4,6 +4,7 @@ import * as Icon from 'react-bootstrap-icons';
 import '../App.css';
 import { useNavigate } from "react-router-dom";
 import UserToggle from './UserToggle';
+import logo from '../images/carousImages/Auctech-logo.jpeg'
 
 
 const Nav = () => {
@@ -32,14 +33,13 @@ const Nav = () => {
             <div className='top-navbar'>
                 <nav className="navbar navbar-default" role="navigation">
 
-                    <a className="navbar-brand" type='button' onClick={homePage}>Auctus Technologies</a>
+                    <a className="navbar-brand" type='button' style={{marginLeft: '20px'}} onClick={homePage}>
+                        <img src={logo} width={180}/>
+                    </a>
 
                     <ul className="nav">
                         <li className="nav-item">
                             <a type='button' className="links" onClick={homePage}>Home</a>
-                        </li>
-                        <li className="nav-item">
-                            <a type='button' className="links">Gallery</a>
                         </li>
                         <li className="nav-item">
                             <a type='button' onClick={aboutUs} className="links">About us</a>

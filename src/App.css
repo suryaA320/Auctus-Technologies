@@ -17,7 +17,28 @@
 }
 
 .top-navbar {
-  background-color: #d6d6d6;
+  /* background-color: #d6d6d6; */
+  opacity: 3;
+  font-size: 16px;
+}
+
+.dubb {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+#first-block {
+  margin-top: 250px;
+}
+
+.shopnow {
+  border: none;
+  padding-inline: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
 }
 
 .login-button {
@@ -140,7 +161,20 @@
 }
 
 #ads_1{
-  margin-top: 100px;
+  margin-top: 180px;
+}
+
+#dubb-card {
+  height: 580px;
+  width: '100%';
+  border-radius: 20px;
+}
+
+#service-title {
+  text-align: center;
+  font-size: 26px;
+  color: #2e2e2e;
+  font-weight: 600;
 }
 
 .product-card {
@@ -251,6 +285,11 @@
   background-color: rgb(71, 71, 71);
   color: white;
   transition: 0.4s ease;
+}
+
+.page-bg {
+  background-image: linear-gradient(45deg , rgb(252, 166, 255), rgb(145, 142, 246));
+  min-height: 100vh;
 }
 
 .shopnow {
