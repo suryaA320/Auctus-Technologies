@@ -56,7 +56,7 @@ const AllProducts = () => {
                     
                     <Col xs={12} md={4}>
                         <Card id="dubb-card">
-                        <img src={bullsEye} style={{height: '270px', width: '415px', backgroundColor: 'pink', borderRadius: '20px'}} alt='auctech technologies' />
+                        <img src={bullsEye} class="img-fluid" style={{height: '270px', width: '415px', backgroundColor: 'pink', borderRadius: '20px'}} alt='auctech technologies' />
                             <CardBody>
                                 <CardTitle id='service-title'>
                                     Our Mission
@@ -71,7 +71,7 @@ const AllProducts = () => {
                     </Col>
                     <Col xs={12} md={4}>
                         <Card id="dubb-card">
-                        <img src={Focus} style={{height: '270px', width: '415px', backgroundColor: 'pink', borderRadius: '20px'}} alt='auctech technologies' />
+                        <img src={Focus} class="img-fluid" style={{height: '270px', width: '415px', backgroundColor: 'pink', borderRadius: '20px'}} alt='auctech technologies' />
                             <CardBody>
                                 <CardTitle id='service-title'>
                                     Our Vision
@@ -87,7 +87,7 @@ const AllProducts = () => {
                     </Col>
                     <Col xs={12} md={4}>
                         <Card id="dubb-card">
-                            <img src={Glass} style={{height: '270px', width: '415px', backgroundColor: 'pink', borderRadius: '20px'}} alt='auctech technologies' />
+                            <img src={Glass} class="img-fluid" style={{height: '270px', width: '415px', backgroundColor: 'pink', borderRadius: '20px'}} alt='auctech technologies' />
                             <CardBody>
                                 <CardTitle id='service-title'>
                                     Our Focus
@@ -95,7 +95,7 @@ const AllProducts = () => {
                                 <hr />
                                 <CardText id='service-text'>
                                     Our Main Focus is to provide our clients, The eligible candidates with Industry
-                                    standards who can put in their efforst for growth of the company
+                                    standards who can put in their effort for growth of the company
                                 </CardText>
                             </CardBody>
                         </Card>

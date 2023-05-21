@@ -15,7 +15,7 @@ const AboutUs = () => {
                 <div className='row' >
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center' }}>
-                        <img src={contact} alt="New York" className="d-block"
+                        <img src={contact} alt="New York" className="img-fluid"
                             style={{ width: 'auto', height: '500px' }} />
                     </div>
 
