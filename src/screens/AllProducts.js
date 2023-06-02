@@ -114,9 +114,9 @@ const AllProducts = () => {
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center', paddingLeft: '50px', paddingRight: '50px' }}>
                         <h1 style={{ marginBottom: '50px' }}>Who we Are</h1>
-                        <p >Auctus Technologies is a skilled and dynamic company engaged in Human Resource Consulting services,
+                        <p >Auctus Technologies India is a skilled and dynamic company engaged in Human Resource Consulting services,
                             primarily concentrating on Information Technology, ITES, BPO services.
-                            Auctus Technologies is serving some of the world’s finest organizations. Committed to achieve maximum customer satisfaction,
+                            Auctus Technologies India is serving some of the world’s finest organizations. Committed to achieve maximum customer satisfaction,
                             we offer personalized executive recruitment services with the objective of meeting the individual specific requirements of our
                             clients in a most efficient manner. Our team adheres to the norms, work culture and the code of ethics of our clients.</p>
                         <button className="shopnow" onClick={aboutUs} type="submit">About Us</button>

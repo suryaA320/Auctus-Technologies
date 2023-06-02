@@ -33,14 +33,14 @@ const Footer = () => {
         <div className="container-fluid mt-5" id="footer" style={{ height: 'auto' }}>
             <Row style={{ marginTop: '50px', textAlign: 'center', paddingTop: '100px', paddingBottom: '100px' }}>
                 <Col className='my-auto' xs={12} md={4} >
-                    <p>Auctus Technologies is a skilled and dynamic company engaged in Human Resource Consulting services, 
+                    <p>Auctus Technologies India is a skilled and dynamic company engaged in Human Resource Consulting services, 
                         primarily concentrating on Information Technology, ITES, BPO services. </p>
 
 
 
                 </Col>
                 <Col className='my-auto' xs={12} md={4}>
-                    <p>Auctus Technologies</p>
+                    <p>Auctus Technologies India</p>
                     <div className='socialMedia-icons'>
                         <ul className="nav" >
                             <li className="nav-item">
@@ -75,7 +75,7 @@ const Footer = () => {
             </Row>
             <hr></hr>
             <Row>
-                <p style={{ textAlign: 'center' }}>Copyright @ Auctus Technologies</p>
+                <p style={{ textAlign: 'center' }}>Copyright @ Auctus Technologies India</p>
             </Row>
         </div>
     )

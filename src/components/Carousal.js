@@ -14,8 +14,8 @@ import carousal_3 from '../images/carousImages/carousal_3.jpg';
 const items = [
   {
     src: carousal_1,
-    altText: 'Auctus Technologies',
-    caption: 'Auctus Technologies',
+    altText: 'Auctus Technologies India',
+    caption: 'Auctus Technologies India',
     key: 1,
   },
   {
